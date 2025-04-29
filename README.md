@@ -17,3 +17,8 @@ CMD ["node", "express_hello_form.js"]
 # Expose the port that the app listens on
 EXPOSE 3000
 ```
+Comandos:
+```
+$ docker build -t my-app .
+$ docker run -d -p 3000:3000 my-app
+```
